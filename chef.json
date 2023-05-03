@@ -1,0 +1,52 @@
+{
+  "chefs": [
+    {
+      "id": 1,
+      "name": "Gordon Ramsay",
+      "photo": "https://cdn.britannica.com/22/205222-050-6A15E44E/Gordon-Ramsay-2010.jpg",
+      "years_of_experience": 30,
+      "num_of_recipes": 500,
+      "likes": 1000000
+    },
+    {
+      "id": 2,
+      "name": "Jamie Oliver",
+      "photo": "https://cdn.britannica.com/79/141979-050-767DC78A/Jamie-Oliver-2008.jpg",
+      "years_of_experience": 20,
+      "num_of_recipes": 300,
+      "likes": 500000
+    },
+    {
+      "id": 3,
+      "name": "Ina Garten",
+      "photo": "https://www.gannett-cdn.com/presto/2021/06/25/USAT/3a6cf005-856d-4015-97d6-fb54db014fa1-INA_GARTEN_HEADSHOT_2020.jpg",
+      "years_of_experience": 25,
+      "num_of_recipes": 200,
+      "likes": 250000
+    },
+    {
+      "id": 4,
+      "name": "Emeril Lagasse",
+      "photo": "https://www.gannett-cdn.com/presto/2021/06/25/USAT/c9f7a072-a6a5-44fd-911a-7fa3d7667c2e-Emeril-Lagasse.JPG",
+      "years_of_experience": 35,
+      "num_of_recipes": 400,
+      "likes": 750000
+    },
+    {
+      "id": 5,
+      "name": "Guy Fieri",
+      "photo": "https://www.gannett-cdn.com/presto/2021/06/25/USAT/0d877316-3ac4-4721-9d5a-1c16b3e7c32f-Guy-Fieri.jpg",
+      "years_of_experience": 15,
+      "num_of_recipes": 100,
+      "likes": 200000
+    },
+    {
+      "id": 6,
+      "name": "Nigella Lawson",
+      "photo": "https://www.gannett-cdn.com/presto/2021/06/25/USAT/997c7d36-ee5b-49f9-8d41-e2d0d4c47dd0-Nigella-Lawson.jpg",
+      "years_of_experience": 22,
+      "num_of_recipes": 225,
+      "likes": 300000
+    }
+  ]
+}

@@ -1,0 +1,497 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "foods": [
+        {
+          "id": 1,
+          "name": "Hamburger",
+          "photo": "https://www.example.com/hamburger.jpg",
+          "description": "A seasoned beef patty served on a bun with cheese, lettuce, tomato, and other toppings.",
+          "rating": 4.5
+        },
+        {
+          "id": 2,
+          "name": "Buffalo wings",
+          "photo": "https://www.example.com/buffalo-wings.jpg",
+          "description": "Fried chicken wings coated in a spicy sauce made with hot sauce, butter, and vinegar.",
+          "rating": 4.0
+        },
+        {
+          "id": 3,
+          "name": "Barbecue ribs",
+          "photo": "https://www.example.com/barbecue-ribs.jpg",
+          "description": "Pork or beef ribs slow-cooked over low heat and basted with a tangy barbecue sauce.",
+          "rating": 4.8
+        },
+        {
+          "id": 4,
+          "name": "Mac and cheese",
+          "photo": "https://www.example.com/mac-and-cheese.jpg",
+          "description": "Macaroni pasta smothered in a cheese sauce, often with additional ingredients like bacon or breadcrumbs.",
+          "rating": 4.2
+        },
+        {
+          "id": 5,
+          "name": "Fried chicken",
+          "photo": "https://www.example.com/fried-chicken.jpg",
+          "description": "Chicken pieces coated in seasoned flour and fried until crispy and golden brown.",
+          "rating": 4.6
+        },
+        {
+          "id": 6,
+          "name": "Chicago-style pizza",
+          "photo": "https://www.example.com/chicago-pizza.jpg",
+          "description": "A deep-dish pizza with a thick crust, topped with tomato sauce, cheese, and various toppings.",
+          "rating": 4.1
+        },
+        {
+          "id": 7,
+          "name": "Hot dogs",
+          "photo": "https://www.example.com/hot-dogs.jpg",
+          "description": "A sausage served on a bun, often with mustard, ketchup, relish, onions, and other toppings.",
+          "rating": 3.9
+        },
+        {
+          "id": 8,
+          "name": "Biscuits and gravy",
+          "photo": "https://www.example.com/biscuits-gravy.jpg",
+          "description": "Flaky biscuits topped with a creamy sausage gravy made with milk and spices.",
+          "rating": 4.4
+        },
+        {
+          "id": 9,
+          "name": "New England clam chowder",
+          "photo": "https://www.example.com/clam-chowder.jpg",
+          "description": "A creamy soup made with clams, potatoes, onions, and milk or cream. Served with oyster crackers.",
+          "rating": 4.7
+        },
+        {
+          "id": 10,
+          "name": "Pulled pork sandwich",
+          "photo": "https://www.example.com/pulled-pork-sandwich.jpg",
+          "description": "Slow-cooked pork pulled into strands and served on a bun with barbecue sauce and coleslaw.",
+          "rating": 4.3
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "foods": [
+        {
+          "id": 1,
+          "name": "Hot Dog",
+          "photo": "https://www.example.com/hotdog.jpg",
+          "description": "A grilled beef sausage served in a bun with mustard, ketchup, and relish.",
+          "rating": 3.5,
+          "price": 1.5
+        },
+        {
+          "id": 2,
+          "name": "Hamburger",
+          "photo": "https://www.example.com/hamburger.jpg",
+          "description": "A grilled beef patty served in a bun with lettuce, tomato, onion, and mayo.",
+          "rating": 4.2,
+          "price": 2.0
+        },
+        {
+          "id": 3,
+          "name": "French Fries",
+          "photo": "https://www.example.com/frenchfries.jpg",
+          "description": "Thinly sliced potatoes deep-fried until golden and crispy.",
+          "rating": 3.9,
+          "price": 0.99
+        },
+        {
+          "id": 4,
+          "name": "Soft Serve Ice Cream",
+          "photo": "https://www.example.com/icecream.jpg",
+          "description": "A soft, creamy vanilla ice cream served in a cone or cup.",
+          "rating": 4.5,
+          "price": 1.25
+        },
+        {
+          "id": 5,
+          "name": "Taco",
+          "photo": "https://www.example.com/taco.jpg",
+          "description": "A crisp corn tortilla filled with seasoned ground beef, lettuce, cheese, and salsa.",
+          "rating": 3.7,
+          "price": 1.99
+        },
+        {
+          "id": 6,
+          "name": "Chili Dog",
+          "photo": "https://www.example.com/chilidog.jpg",
+          "description": "A grilled beef sausage served in a bun with chili, cheese, and onions.",
+          "rating": 3.8,
+          "price": 2.25
+        },
+        {
+          "id": 7,
+          "name": "Grilled Cheese Sandwich",
+          "photo": "https://www.example.com/grilledcheese.jpg",
+          "description": "A sandwich made with melted cheese between two slices of toasted bread.",
+          "rating": 4.1,
+          "price": 1.75
+        },
+        {
+          "id": 8,
+          "name": "Pizza Slice",
+          "photo": "https://www.example.com/pizza.jpg",
+          "description": "A slice of pizza topped with tomato sauce, cheese, and various toppings.",
+          "rating": 3.6,
+          "price": 2.5
+        },
+        {
+          "id": 9,
+          "name": "Corn Dog",
+          "photo": "https://www.example.com/corndog.jpg",
+          "description": "A hot dog dipped in cornmeal batter and deep-fried until crispy.",
+          "rating": 3.4,
+          "price": 1.5
+        },
+        {
+          "id": 10,
+          "name": "Nachos",
+          "photo": "https://www.example.com/nachos.jpg",
+          "description": "Tortilla chips topped with melted cheese, jalapeños, and salsa.",
+          "rating": 4.0,
+          "price": 2.99
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "foods": [
+        {
+          "id": "1",
+          "name": "Kobe Beef",
+          "photo": "https://www.kobe-beef-store.com/wp/wp-content/uploads/2019/11/kobe-beef-store-howto-cook-kobe-beef-steak.jpg",
+          "description": "Kobe beef is a type of Wagyu beef that comes from the Tajima strain of cattle from the Hyogo Prefecture in Japan. It's known for its tender texture and rich flavor due to the high marbling of fat throughout the meat.",
+          "price": "$300 per pound",
+          "rating": "4.8"
+        },
+        {
+          "id": "2",
+          "name": "Foie Gras",
+          "photo": "https://www2.miwacity-market.com/sphere/assets/images/market/20190107_ilovejapan_foiegras_v2.jpg",
+          "description": "Foie gras is a luxurious French dish made from the liver of a duck or goose that has been specially fattened. It has a rich, buttery flavor and silky texture.",
+          "price": "$150 per pound",
+          "rating": "4.5"
+        },
+        {
+          "id": "3",
+          "name": "Osetra Caviar",
+          "photo": "https://cdn.shopify.com/s/files/1/1859/5843/products/Russian-Osetra-Caviar-500gm_b1231e36-75e0-4829-b85f-3aa84cec73fb_grande.jpg?v=1524917640",
+          "description": "Osetra caviar is a type of sturgeon roe that comes from the Caspian and Black Sea regions. It has a nutty and slightly sweet flavor with a creamy texture.",
+          "price": "$400 per ounce",
+          "rating": "4.6"
+        },
+        {
+          "id": "4",
+          "name": "White Truffles",
+          "photo": "https://www.gourmetfoodstore.com/images/products/three-ounces-of-fresh-white-truffles-2638.jpg",
+          "description": "White truffles are a rare delicacy that grows underground near the roots of certain trees. They have a pungent aroma and earthy flavor.",
+          "price": "$2000 per pound",
+          "rating": "4.9"
+        },
+        {
+          "id": "5",
+          "name": "Wagyu Beef",
+          "photo": "https://i.pinimg.com/736x/63/25/5f/63255ffc64cfd167fd07edaaee478673.jpg",
+          "description": "Wagyu beef is a type of Japanese beef that comes from four breeds of cattle. It's known for its high marbling and tender texture.",
+          "price": "$100 per pound",
+          "rating": "4.7"
+        },
+        {
+          "id": "6",
+          "name": "Beluga Caviar",
+          "photo": "https://cdn.shopify.com/s/files/1/1859/5843/products/Russian-Beluga-Caviar-500gm_2_06e8c9f4-77c3-4502-a581-c8b9fc7742b8_grande.jpg?v=1524917431",
+          "description": "Beluga caviar is a type of sturgeon roe that comes from the Caspian Sea. It's known for its large size and buttery, creamy flavor.",
+          "price": "$5000 per pound",
+          "rating": "5.0"
+        },
+        {
+          "id": "7",
+          "name": "Matsutake Mushrooms",
+          "photo": "https://images.fineartamerica.com/images-medium-large-5/1-matsutake-mushroom-artur-wrona.jpg",
+          "description": "Matsutake mushrooms are a type of wild mushroom that grow in certain regions of Asia and North America. They have a unique aroma and earthy flavor.",
+          "price": "$1000 per pound",
+          "rating": "4.3"
+        },
+
+        {
+          "id": 8,
+          "name": "Pizza Slice",
+          "photo": "https://www.example.com/pizza.jpg",
+          "description": "A slice of pizza topped with tomato sauce, cheese, and various toppings.",
+          "rating": 3.6,
+          "price": 2.5
+        },
+        {
+          "id": 9,
+          "name": "Corn Dog",
+          "photo": "https://www.example.com/corndog.jpg",
+          "description": "A hot dog dipped in cornmeal batter and deep-fried until crispy.",
+          "rating": 3.4,
+          "price": 1.5
+        },
+        {
+          "id": 10,
+          "name": "Nachos",
+          "photo": "https://www.example.com/nachos.jpg",
+          "description": "Tortilla chips topped with melted cheese, jalapeños, and salsa.",
+          "rating": 4.0,
+          "price": 2.99
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "foods": [
+        {
+          "id": "1",
+          "name": "Kobe Beef",
+          "photo": "https://www.kobe-beef-store.com/wp/wp-content/uploads/2019/11/kobe-beef-store-howto-cook-kobe-beef-steak.jpg",
+          "description": "Kobe beef is a type of Wagyu beef that comes from the Tajima strain of cattle from the Hyogo Prefecture in Japan. It's known for its tender texture and rich flavor due to the high marbling of fat throughout the meat.",
+          "price": "$300 per pound",
+          "rating": "4.8"
+        },
+        {
+          "id": "2",
+          "name": "Foie Gras",
+          "photo": "https://www2.miwacity-market.com/sphere/assets/images/market/20190107_ilovejapan_foiegras_v2.jpg",
+          "description": "Foie gras is a luxurious French dish made from the liver of a duck or goose that has been specially fattened. It has a rich, buttery flavor and silky texture.",
+          "price": "$150 per pound",
+          "rating": "4.5"
+        },
+        {
+          "id": "3",
+          "name": "Osetra Caviar",
+          "photo": "https://cdn.shopify.com/s/files/1/1859/5843/products/Russian-Osetra-Caviar-500gm_b1231e36-75e0-4829-b85f-3aa84cec73fb_grande.jpg?v=1524917640",
+          "description": "Osetra caviar is a type of sturgeon roe that comes from the Caspian and Black Sea regions. It has a nutty and slightly sweet flavor with a creamy texture.",
+          "price": "$400 per ounce",
+          "rating": "4.6"
+        },
+        {
+          "id": "4",
+          "name": "White Truffles",
+          "photo": "https://www.gourmetfoodstore.com/images/products/three-ounces-of-fresh-white-truffles-2638.jpg",
+          "description": "White truffles are a rare delicacy that grows underground near the roots of certain trees. They have a pungent aroma and earthy flavor.",
+          "price": "$2000 per pound",
+          "rating": "4.9"
+        },
+        {
+          "id": "5",
+          "name": "Wagyu Beef",
+          "photo": "https://i.pinimg.com/736x/63/25/5f/63255ffc64cfd167fd07edaaee478673.jpg",
+          "description": "Wagyu beef is a type of Japanese beef that comes from four breeds of cattle. It's known for its high marbling and tender texture.",
+          "price": "$100 per pound",
+          "rating": "4.7"
+        },
+        {
+          "id": "6",
+          "name": "Beluga Caviar",
+          "photo": "https://cdn.shopify.com/s/files/1/1859/5843/products/Russian-Beluga-Caviar-500gm_2_06e8c9f4-77c3-4502-a581-c8b9fc7742b8_grande.jpg?v=1524917431",
+          "description": "Beluga caviar is a type of sturgeon roe that comes from the Caspian Sea. It's known for its large size and buttery, creamy flavor.",
+          "price": "$5000 per pound",
+          "rating": "5.0"
+        },
+        {
+          "id": "7",
+          "name": "Matsutake Mushrooms",
+          "photo": "https://images.fineartamerica.com/images-medium-large-5/1-matsutake-mushroom-artur-wrona.jpg",
+          "description": "Matsutake mushrooms are a type of wild mushroom that grow in certain regions of Asia and North America. They have a unique aroma and earthy flavor.",
+          "price": "$1000 per pound",
+          "rating": "4.3"
+        },
+
+        {
+          "id": 8,
+          "name": "Pizza Slice",
+          "photo": "https://www.example.com/pizza.jpg",
+          "description": "A slice of pizza topped with tomato sauce, cheese, and various toppings.",
+          "rating": 3.6,
+          "price": 2.5
+        },
+        {
+          "id": 9,
+          "name": "Corn Dog",
+          "photo": "https://www.example.com/corndog.jpg",
+          "description": "A hot dog dipped in cornmeal batter and deep-fried until crispy.",
+          "rating": 3.4,
+          "price": 1.5
+        },
+        {
+          "id": 10,
+          "name": "Nachos",
+          "photo": "https://www.example.com/nachos.jpg",
+          "description": "Tortilla chips topped with melted cheese, jalapeños, and salsa.",
+          "rating": 4.0,
+          "price": 2.99
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "foods": [
+        {
+          "id": "1",
+          "name": "Kobe Beef",
+          "photo": "https://www.kobe-beef-store.com/wp/wp-content/uploads/2019/11/kobe-beef-store-howto-cook-kobe-beef-steak.jpg",
+          "description": "Kobe beef is a type of Wagyu beef that comes from the Tajima strain of cattle from the Hyogo Prefecture in Japan. It's known for its tender texture and rich flavor due to the high marbling of fat throughout the meat.",
+          "price": "$300 per pound",
+          "rating": "4.8"
+        },
+        {
+          "id": "2",
+          "name": "Foie Gras",
+          "photo": "https://www2.miwacity-market.com/sphere/assets/images/market/20190107_ilovejapan_foiegras_v2.jpg",
+          "description": "Foie gras is a luxurious French dish made from the liver of a duck or goose that has been specially fattened. It has a rich, buttery flavor and silky texture.",
+          "price": "$150 per pound",
+          "rating": "4.5"
+        },
+        {
+          "id": "3",
+          "name": "Osetra Caviar",
+          "photo": "https://cdn.shopify.com/s/files/1/1859/5843/products/Russian-Osetra-Caviar-500gm_b1231e36-75e0-4829-b85f-3aa84cec73fb_grande.jpg?v=1524917640",
+          "description": "Osetra caviar is a type of sturgeon roe that comes from the Caspian and Black Sea regions. It has a nutty and slightly sweet flavor with a creamy texture.",
+          "price": "$400 per ounce",
+          "rating": "4.6"
+        },
+        {
+          "id": "4",
+          "name": "White Truffles",
+          "photo": "https://www.gourmetfoodstore.com/images/products/three-ounces-of-fresh-white-truffles-2638.jpg",
+          "description": "White truffles are a rare delicacy that grows underground near the roots of certain trees. They have a pungent aroma and earthy flavor.",
+          "price": "$2000 per pound",
+          "rating": "4.9"
+        },
+        {
+          "id": "5",
+          "name": "Wagyu Beef",
+          "photo": "https://i.pinimg.com/736x/63/25/5f/63255ffc64cfd167fd07edaaee478673.jpg",
+          "description": "Wagyu beef is a type of Japanese beef that comes from four breeds of cattle. It's known for its high marbling and tender texture.",
+          "price": "$100 per pound",
+          "rating": "4.7"
+        },
+        {
+          "id": "6",
+          "name": "Beluga Caviar",
+          "photo": "https://cdn.shopify.com/s/files/1/1859/5843/products/Russian-Beluga-Caviar-500gm_2_06e8c9f4-77c3-4502-a581-c8b9fc7742b8_grande.jpg?v=1524917431",
+          "description": "Beluga caviar is a type of sturgeon roe that comes from the Caspian Sea. It's known for its large size and buttery, creamy flavor.",
+          "price": "$5000 per pound",
+          "rating": "5.0"
+        },
+        {
+          "id": "7",
+          "name": "Matsutake Mushrooms",
+          "photo": "https://images.fineartamerica.com/images-medium-large-5/1-matsutake-mushroom-artur-wrona.jpg",
+          "description": "Matsutake mushrooms are a type of wild mushroom that grow in certain regions of Asia and North America. They have a unique aroma and earthy flavor.",
+          "price": "$1000 per pound",
+          "rating": "4.3"
+        },
+
+        {
+          "id": 8,
+          "name": "Pizza Slice",
+          "photo": "https://www.example.com/pizza.jpg",
+          "description": "A slice of pizza topped with tomato sauce, cheese, and various toppings.",
+          "rating": 3.6,
+          "price": 2.5
+        },
+        {
+          "id": 9,
+          "name": "Corn Dog",
+          "photo": "https://www.example.com/corndog.jpg",
+          "description": "A hot dog dipped in cornmeal batter and deep-fried until crispy.",
+          "rating": 3.4,
+          "price": 1.5
+        },
+        {
+          "id": 10,
+          "name": "Nachos",
+          "photo": "https://www.example.com/nachos.jpg",
+          "description": "Tortilla chips topped with melted cheese, jalapeños, and salsa.",
+          "rating": 4.0,
+          "price": 2.99
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "foods": [
+        {
+          "id": 1,
+          "name": "Hamburger",
+          "photo": "https://www.example.com/hamburger.jpg",
+          "description": "A seasoned beef patty served on a bun with cheese, lettuce, tomato, and other toppings.",
+          "rating": 4.5
+        },
+        {
+          "id": 2,
+          "name": "Buffalo wings",
+          "photo": "https://www.example.com/buffalo-wings.jpg",
+          "description": "Fried chicken wings coated in a spicy sauce made with hot sauce, butter, and vinegar.",
+          "rating": 4.0
+        },
+        {
+          "id": 3,
+          "name": "Barbecue ribs",
+          "photo": "https://www.example.com/barbecue-ribs.jpg",
+          "description": "Pork or beef ribs slow-cooked over low heat and basted with a tangy barbecue sauce.",
+          "rating": 4.8
+        },
+        {
+          "id": 4,
+          "name": "Mac and cheese",
+          "photo": "https://www.example.com/mac-and-cheese.jpg",
+          "description": "Macaroni pasta smothered in a cheese sauce, often with additional ingredients like bacon or breadcrumbs.",
+          "rating": 4.2
+        },
+        {
+          "id": 5,
+          "name": "Fried chicken",
+          "photo": "https://www.example.com/fried-chicken.jpg",
+          "description": "Chicken pieces coated in seasoned flour and fried until crispy and golden brown.",
+          "rating": 4.6
+        },
+        {
+          "id": 6,
+          "name": "Chicago-style pizza",
+          "photo": "https://www.example.com/chicago-pizza.jpg",
+          "description": "A deep-dish pizza with a thick crust, topped with tomato sauce, cheese, and various toppings.",
+          "rating": 4.1
+        },
+        {
+          "id": 7,
+          "name": "Hot dogs",
+          "photo": "https://www.example.com/hot-dogs.jpg",
+          "description": "A sausage served on a bun, often with mustard, ketchup, relish, onions, and other toppings.",
+          "rating": 3.9
+        },
+        {
+          "id": 8,
+          "name": "Biscuits and gravy",
+          "photo": "https://www.example.com/biscuits-gravy.jpg",
+          "description": "Flaky biscuits topped with a creamy sausage gravy made with milk and spices.",
+          "rating": 4.4
+        },
+        {
+          "id": 9,
+          "name": "New England clam chowder",
+          "photo": "https://www.example.com/clam-chowder.jpg",
+          "description": "A creamy soup made with clams, potatoes, onions, and milk or cream. Served with oyster crackers.",
+          "rating": 4.7
+        },
+        {
+          "id": 10,
+          "name": "Pulled pork sandwich",
+          "photo": "https://www.example.com/pulled-pork-sandwich.jpg",
+          "description": "Slow-cooked pork pulled into strands and served on a bun with barbecue sauce and coleslaw.",
+          "rating": 4.3
+        }
+      ]
+    }
+  ]
+}
